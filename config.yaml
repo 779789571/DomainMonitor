@@ -1,0 +1,17 @@
+monitor:
+  domain: ["baidu.com","xiami.com"] #填写想要监控的子域名
+  serverJiang:
+    enable: "enable"
+    server_jiang_api: "" #填写你自己的sever酱 api
+  tools:
+    subdomainBrute_tools:
+      subfinder_enable: "enable" #run subfinder tool if is "enable".
+      ksubdomain_enable: "disable" #run ksubdomain tool if is "enable".
+    web_check_tools:
+      httpx_enable: "enable"
+
+
+  auto_update_newsubdomain_to_old: "true" #auto uodate the new parma to avoid too much "new domain found"
+
+
+
