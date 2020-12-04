@@ -6,7 +6,7 @@
 2. 设置config.yaml里的domain参数 
 如 
 `domain: ["baidu.com","xiami.com","其他你想要的域名"] `
-3. 设置server酱的apikey
+3. 添加config.yaml里的server酱的apikey
 
 执行一遍程序，顺利的话，微信会收到通知啦～
 
